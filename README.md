@@ -1,2 +1,2 @@
-# Green-Burguer
+# Green Burguer
 Um restaurante vegano
