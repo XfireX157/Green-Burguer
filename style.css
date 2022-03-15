@@ -79,6 +79,7 @@ section{
     bottom: 10px;
     display: flex;
     align-items: center;
+    justify-content: center;
     left: 50%;
     transform: translate(-50%);
     padding-right: 7.25rem;
@@ -89,6 +90,7 @@ section input{
 }
 
 .manual-btn{
+    
     border: 2px solid rgb(12, 12, 12);
     padding: 10px;
     border-radius: 30px;
@@ -113,6 +115,7 @@ section input{
 
 .img-slide{
     width: 25%;
+    height: auto;
     transition: 0.5s;
 }
 
@@ -137,38 +140,38 @@ section input{
     margin-left: -75%;
 }
 
-.container{
+.caixa-img{
+    width: 80%;
     display: flex;
-    color: black;
-    margin: 100px 100px;
+    margin: auto;
+   color: #000;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    
 }
 
-.font{
-    position: relative;
-    font-size: 30px;
-    background-color: #D4E9E2;
-    width: 640px;
-    height: 480px;
+.caixa-img img {
+    margin: auto;
+    width: 100%;
+    height: auto;
 }
 
-.font p{
-    padding: 0 25px;
-    font-weight: 300;
-    font-style: normal;
-    top: 100px;
-    position: absolute;
+.caixa-img p{
+
+    font-size: 24px;
+    background-color: #49b673;
     text-align: center;
-}
-
-.img{
-    width: 640px;
-    height: 480px;
-}
-
-.container2{
-    color: black;
+    margin: 0 auto;
     display: flex;
-    margin: 100px 100px;
+    align-items: center;
+    padding: 0 20px;
+
+    width: 100%;
+    height: auto;
+    color: #fff;
+
 }
 
 footer{

@@ -58,26 +58,14 @@ html{
 }
 
 main{
+    width: 100%;
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
     color: black;
 }
 
-.cardapio img{
-    opacity: 70%;
-    width: 1349px;
-    height: 400px;
-}
-
-.cardapio h2{
-    position: absolute;
-    display: flex;
-    top: 15%;
-    right: 31%;
-    font-size: 100px;
-    color: rgb(248, 247, 247);
+.box img{
+     width: 100vw;
 }
 
 section{
@@ -108,34 +96,19 @@ section .lista li:hover{
 }
 
 .lista .menu{
-    width: 100px;
-    height: 100px;
-}
-
-section .lista2{
     display: flex;
     justify-content: center;
-    align-items: center;
-    position: absolute;
-    bottom: 10px;
-    font-weight: 500;
-    color: rgb(68, 66, 66);
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
 }
 
-.lista2 li{
+
+.nome_listas{
     font-size: 22px;
-    margin-left: 275px;
+    text-align: center;
+    margin-top: 40px;
 }
-
-.lista2 li:nth-child(3){
-    margin-left: 300px;
-}
-
-.lista2 li:nth-child(1){
-    margin-left: 0;
-}
-
-
 
 footer{
     width: 100%;

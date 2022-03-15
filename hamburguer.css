@@ -58,6 +58,7 @@ html{
 }
 
 main{
+    width: 100%;
     position: relative;
     display: flex;
     justify-content: center;
@@ -66,25 +67,26 @@ main{
 }
 
 .cardapio .img-box{
-    opacity: 70%;
-    width: 1348px;
-    height: 400px;
-}
-
-.cardapio h2{
-    position: absolute;
-    display: flex;
-    top: 110px;
-    right: 20%;
-    font-size: 100px;
-    color: rgb(248, 247, 247);
+    opacity: 85%;
+    width: 100vw;
+    height: auto;
 }
 
 .menus {
+   width: 90%;
+   margin: 0 auto;
    display: flex;
    align-items: center;
-   margin: 50px 50px; 
    font-size: 22px;
+
+   background-color: #f0f0f0;
+   margin-top: 20px;
+   margin-bottom: 30px;
+}
+
+.descricao{
+    width: 100%;
+    
 }
 
 .menus .descricao li:nth-child(1){
@@ -100,6 +102,7 @@ main{
 .menus .hamburguer-vegan img{
     width: 450px;
     height: 330px;
+    padding-left: 15px;
 }
 
 footer{
